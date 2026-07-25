@@ -1,0 +1,44 @@
+Section 1: General Awareness
+
+Web Development Basics:
+
+1.What is web development, and why is it essential in the context of the internet?
+HTML Knowledge:
+
+Web development is a method that is used to build web applications and websites ready to be deployed on the web and accessed by users through the internet.
+
+2.Have you heard of HTML? If yes, what does HTML stand for, and what is its primary purpose in web development?
+ 
+Yes, I heard about HTML. It satnds for HyperText Markup language, and it is used to create and organize contents such as: haeaders, paragraphs, footer...that we are going to display.
+
+Section 2: Familiarity with CSS
+
+CSS Understanding:
+3.Are you familiar with CSS? If yes, briefly explain what CSS is used for in web development.
+A quite good. CSS is used as part of the frontend. His main purpose is to make intuitive and to style HTML contents.
+For example: with HTML, I created a button. In this context, CSS will enables me to assign a color, to this button, move the button anywhere I want. Overall, with CSS, I will be able to shape this button as I want.
+
+Section 3: JavaScript and Its Importance
+
+Introduction to JavaScript:
+4.Have you heard of JavaScript? If yes, what is JavaScript, and why is it crucial for building interactive websites?
+Section 4: Introduction to React and Node.js
+
+Yes, javaScript is a programming language primarily used to make web pages interactive and dynamic. It allows developers to respond to user actions, manipulate HTML content, validate forms, communicate with servers, and update page content without reloading the entire page.
+For example, if I create a button using HTML and style it with CSS, JavaScript enables me to define what happens when the user clicks that button. It can trigger an action, display a message, fetch data, or modify the content of the page dynamically.
+
+
+React and Node.js Awareness:
+5.Are you familiar with React and Node.js? If yes, provide a brief description of what React and Node.js are commonly used for in web development.
+
+No really, but I do know how it works. React is a javascript librairy that's used for creating components that could be used again as you want. Also with hooks, it enables to smoothly manage state.
+Regarding Node.js, it's is a JavaScript runtime that enables developers to run JavaScript on the server side. It is commonly used to build backend services and APIs. Frameworks such as Express.js are often used with Node.js to simplify server development and facilitate communication between the client and the server.
+
+Section 5: Bonus Question
+
+Learning Intentions:
+6.Why do you want to learn web development, and what do you hope to achieve by acquiring skills in HTML, CSS, JavaScript, React, and Node.js?
+
+First of all, learning these skills is very important to me because they will enable me to build interactive websites and web applications.
+
+In the long term, I would especially like to gain a deeper understanding of how the Internet works, particularly how data is exchanged between clients and servers, and how servers process requests and generate appropriate responses.
