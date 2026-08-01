@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elie's Portfolio</title>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header id="home">
+
+        <div class="logo">
+            <h1>Elie's Portfolio</h1>
+        </div>
+
+        <nav aria-label="Main Navigation">
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <h2>Hello, I'm Elie</h2>
+
+            <p>
+                MIAGE Student • Future Solution Architect • Technology Enthusiast
+            </p>
+
+            <video controls width="700">
+                <source src="video/coding.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+            <br><br>
+
+            <audio controls>
+                <source src="audio/introduction.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </section>
+
+        <!-- ABOUT -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I'm Elie, a MIAGE student passionate about software development,
+                business information systems, and digital transformation.
+            </p>
+
+            <p>
+                I enjoy creating applications that solve real business problems and
+                continuously improving my technical and analytical skills.
+            </p>
+
+            <p>
+                My career goal is to become a Solution Architect and contribute to
+                innovative projects within the banking and technology industries.
+            </p>
+
+        </section>
+
+        <!-- WORK -->
+
+        <section id="work">
+
+            <h2>My Work</h2>
+
+            <p>Some projects I've worked on include:</p>
+
+            <ul>
+
+                <li>
+                    <strong>Weather Alert System for Farmers</strong>
+                    <p>
+                        Developed a responsive platform allowing farmers to receive
+                        weather alerts and monitor crop development using HTML, CSS,
+                        Bootstrap, JavaScript and PHP.
+                    </p>
+                </li>
+
+                <li>
+                    <strong>Python Automation Tool</strong>
+                    <p>
+                        Built a Python application that reads Excel data, queries a
+                        MySQL database, and generates automated Excel reports.
+                    </p>
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- RESUME -->
+
+        <section id="resume">
+
+            <h2>Resume</h2>
+
+            <h3>Education</h3>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Bachelor's Degree in MIAGE</td>
+                        <td>Methods of Computer Science Applied to Business Management</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <h3>Professional Experience</h3>
+
+            <article>
+
+                <h4>Management Information Systems Intern</h4>
+
+                <p><strong>Société Ivoirienne de Banque (SIB)</strong></p>
+
+                <p><em>October 2024 – June 2025</em></p>
+
+                <ul>
+                    <li>Developed banking dashboards.</li>
+                    <li>Automated reporting with VBA.</li>
+                    <li>Worked on an EDMS project.</li>
+                    <li>Provided technical support.</li>
+                    <li>Participated in Agile meetings.</li>
+                </ul>
+
+            </article>
+
+            <article>
+
+                <h4>IT Support Specialist</h4>
+
+                <p><strong>West African Banking Lawyers Seminar</strong></p>
+
+                <ul>
+
+                    <li>Supported over 450 participants.</li>
+                    <li>Managed technical incidents.</li>
+                    <li>Presented AI automation tools.</li>
+
+                </ul>
+
+            </article>
+
+            <h3>Technical Skills</h3>
+
+            <ul>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>VBA</li>
+
+            </ul>
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="submit_form.php" method="post">
+
+                <fieldset>
+
+                    <legend>Send me a message</legend>
+
+                    <p>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label><br>
+                        <textarea id="message"
+                                  name="message"
+                                  rows="6"
+                                  cols="40"
+                                  required></textarea>
+                    </p>
+
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p><strong>Elie Yeo</strong></p>
+
+        <p>Email: elie.yeo@example.com</p>
+
+        <p>Phone: +225 XX XX XX XX XX</p>
+
+        <p>&copy; 2026 Elie Yeo. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
