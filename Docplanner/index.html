@@ -1,0 +1,542 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Docplanner - Find a Doctor and Book an Appointment</title>
+    <meta
+        name="description"
+        content="Find doctors, clinics and healthcare professionals and book your medical appointment online with Docplanner."
+    >
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Docplanner - Find a Doctor">
+    <meta
+        property="og:description"
+        content="Find healthcare professionals and book appointments online."
+    >
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="container header-container">
+
+            <a href="#" class="logo" aria-label="Docplanner homepage">
+                <span class="logo-main">docplanner</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <nav class="main-navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#about">About us</a>
+                    </li>
+                    <li>
+                        <a href="#departments">Departments</a>
+                    </li>
+                    <li>
+                        <a href="#patients">For patients</a>
+                    </li>
+                    <li>
+                        <a href="#doctors">For doctors</a>
+                    </li>
+                    <li>
+                        <a href="#clinics">For clinics</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero" id="about">
+            <div class="container hero-content">
+
+                <p class="eyebrow">Healthcare made easier</p>
+
+                <h1>
+                    Find a doctor and book your appointment online
+                </h1>
+
+                <p class="hero-description">
+                    Find the right healthcare professional and book your
+                    appointment quickly and easily.
+                </p>
+
+                <div class="search-box">
+
+                    <form action="#" method="get" class="search-form">
+
+                        <div class="form-group">
+                            <label for="specialty">
+                                What are you looking for?
+                            </label>
+
+                            <select id="specialty" name="specialty">
+                                <option value="">
+                                    Select a specialty
+                                </option>
+                                <option value="dentist">
+                                    Dentist
+                                </option>
+                                <option value="dermatologist">
+                                    Dermatologist
+                                </option>
+                                <option value="cardiologist">
+                                    Cardiologist
+                                </option>
+                                <option value="general-practitioner">
+                                    General practitioner
+                                </option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">
+                                Where?
+                            </label>
+
+                            <input
+                                type="text"
+                                id="location"
+                                name="location"
+                                placeholder="City or location"
+                                autocomplete="address-level2"
+                            >
+                        </div>
+
+                        <button type="submit" class="primary-button">
+                            Search
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+        <section class="services" id="patients">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Our services</p>
+
+                    <h2>
+                        Healthcare at your fingertips
+                    </h2>
+
+                    <p>
+                        Everything you need to find and manage your
+                        healthcare appointments.
+                    </p>
+                </div>
+
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            +
+                        </div>
+
+                        <h3>
+                            Find a doctor
+                        </h3>
+
+                        <p>
+                            Search for doctors and healthcare professionals
+                            according to their specialty and location.
+                        </p>
+
+                        <a href="#doctors" class="text-link">
+                            Find doctors
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            ✓
+                        </div>
+
+                        <h3>
+                            Book an appointment
+                        </h3>
+
+                        <p>
+                            Choose an available time slot and book your
+                            appointment online.
+                        </p>
+
+                        <a href="#appointment" class="text-link">
+                            Book now
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            +
+                        </div>
+
+                        <h3>
+                            Manage your healthcare
+                        </h3>
+
+                        <p>
+                            Keep track of your appointments and simplify
+                            your healthcare experience.
+                        </p>
+
+                        <a href="#account" class="text-link">
+                            Learn more
+                            <span aria-hidden="true">→</span>
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= STATISTICS ================= -->
+        <section class="statistics" aria-labelledby="statistics-title">
+            <div class="container">
+
+                <div class="section-heading light">
+                    <p class="eyebrow">Docplanner worldwide</p>
+
+                    <h2 id="statistics-title">
+                        Healthcare connects people
+                    </h2>
+                </div>
+
+                <div class="stats-grid">
+
+                    <article class="stat-card">
+                        <strong>130+</strong>
+                        <span>Countries</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <strong>20M+</strong>
+                        <span>Patients</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <strong>2M+</strong>
+                        <span>Appointments</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <strong>80K+</strong>
+                        <span>Healthcare professionals</span>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= DEPARTMENTS ================= -->
+        <section class="departments" id="departments">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Specialties</p>
+
+                    <h2>
+                        Find the right healthcare professional
+                    </h2>
+
+                    <p>
+                        Explore our most popular medical specialties.
+                    </p>
+                </div>
+
+
+                <div class="department-grid">
+
+                    <article class="department-card">
+                        <h3>Dental care</h3>
+                        <p>
+                            Find dentists and dental specialists.
+                        </p>
+                        <a href="#">Explore dental care</a>
+                    </article>
+
+                    <article class="department-card">
+                        <h3>Dermatology</h3>
+                        <p>
+                            Find dermatologists and skin specialists.
+                        </p>
+                        <a href="#">Explore dermatology</a>
+                    </article>
+
+                    <article class="department-card">
+                        <h3>Cardiology</h3>
+                        <p>
+                            Find cardiologists and heart specialists.
+                        </p>
+                        <a href="#">Explore cardiology</a>
+                    </article>
+
+                    <article class="department-card">
+                        <h3>General medicine</h3>
+                        <p>
+                            Find general practitioners near you.
+                        </p>
+                        <a href="#">Explore general medicine</a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= DOCTORS ================= -->
+        <section class="doctors" id="doctors">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">Healthcare professionals</p>
+
+                    <h2>
+                        Meet healthcare professionals
+                    </h2>
+
+                    <p>
+                        Discover healthcare professionals and find the
+                        care that suits your needs.
+                    </p>
+                </div>
+
+
+                <div class="doctor-grid">
+
+                    <article class="doctor-card">
+
+                        <div class="doctor-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=600&q=80"
+                                alt="Doctor wearing a white medical coat"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="doctor-content">
+                            <h3>
+                                Healthcare professional
+                            </h3>
+
+                            <p class="doctor-specialty">
+                                General practitioner
+                            </p>
+
+                            <a href="#">
+                                View profile
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="doctor-card">
+
+                        <div class="doctor-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+                                alt="Female doctor smiling"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="doctor-content">
+                            <h3>
+                                Healthcare professional
+                            </h3>
+
+                            <p class="doctor-specialty">
+                                Dermatologist
+                            </p>
+
+                            <a href="#">
+                                View profile
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <article class="doctor-card">
+
+                        <div class="doctor-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=600&q=80"
+                                alt="Doctor working in a medical office"
+                                loading="lazy"
+                            >
+                        </div>
+
+                        <div class="doctor-content">
+                            <h3>
+                                Healthcare professional
+                            </h3>
+
+                            <p class="doctor-specialty">
+                                Cardiologist
+                            </p>
+
+                            <a href="#">
+                                View profile
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CLINICS ================= -->
+        <section class="clinics" id="clinics">
+            <div class="container clinics-content">
+
+                <div>
+                    <p class="eyebrow">For healthcare organizations</p>
+
+                    <h2>
+                        Solutions for doctors and clinics
+                    </h2>
+
+                    <p>
+                        Improve your online presence, simplify appointment
+                        management and connect with more patients.
+                    </p>
+
+                    <a href="#" class="primary-button">
+                        Discover our solutions
+                    </a>
+                </div>
+
+                <div class="clinic-visual" aria-hidden="true">
+                    <div class="visual-card">
+                        <span class="visual-number">24/7</span>
+                        <span>Online appointment management</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="cta" id="appointment">
+            <div class="container">
+
+                <h2>
+                    Ready to find your healthcare professional?
+                </h2>
+
+                <p>
+                    Search for a doctor and book your appointment today.
+                </p>
+
+                <a href="#" class="primary-button">
+                    Find a doctor
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+                <a href="#" class="logo" aria-label="Docplanner homepage">
+                    <span class="logo-main">docplanner</span>
+                    <span class="logo-dot">.</span>
+                </a>
+
+                <p>
+                    Making healthcare more accessible through technology.
+                </p>
+            </div>
+
+
+            <nav class="footer-navigation" aria-label="Footer navigation">
+
+                <div>
+                    <h2>Company</h2>
+
+                    <ul>
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>For professionals</h2>
+
+                    <ul>
+                        <li><a href="#doctors">For doctors</a></li>
+                        <li><a href="#clinics">For clinics</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Resources</h2>
+
+                    <ul>
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Docplanner. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
