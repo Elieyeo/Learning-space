@@ -1,0 +1,127 @@
+/* ================= GENERAL ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* ================= HERO ================= */
+
+.travel-hero {
+
+    min-height: 90vh;
+
+    background-image:
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80");
+
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.45);
+}
+
+
+.hero-content {
+
+    position: relative;
+
+    z-index: 1;
+
+    max-width: 850px;
+}
+
+
+/* ================= DESTINATION CARDS ================= */
+
+.destination-card {
+
+    border: none;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+.destination-card:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.destination-card img {
+
+    height: 240px;
+
+    object-fit: cover;
+}
+
+
+/* ================= ACCORDION ================= */
+
+.accordion-button {
+
+    font-weight: 600;
+}
+
+
+/* ================= FOOTER ================= */
+
+.social-link {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1.3rem;
+
+    margin-left: 15px;
+
+    transition: opacity 0.3s ease;
+}
+
+
+.social-link:hover {
+
+    opacity: 0.7;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .travel-hero {
+
+        min-height: 75vh;
+
+    }
+
+    .travel-hero h1 {
+
+        font-size: 3rem;
+
+    }
+
+}
