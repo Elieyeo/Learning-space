@@ -1,0 +1,756 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="A technology and software engineering blog covering development, cloud, databases and career topics."
+    >
+
+    <title>TechSphere | Software Engineering Blog</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- ================= HEADER ================= -->
+    <header class="bg-gray-950 text-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <nav class="flex items-center justify-between py-5">
+
+                <!-- Logo -->
+                <a href="#"
+                   class="text-2xl font-bold tracking-wide">
+                    Tech<span class="text-blue-500">Sphere</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <ul class="hidden md:flex items-center gap-8">
+
+                    <li>
+                        <a href="#"
+                           class="hover:text-blue-400 transition duration-300">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#categories"
+                           class="hover:text-blue-400 transition duration-300">
+                            Categories
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#posts"
+                           class="hover:text-blue-400 transition duration-300">
+                            Articles
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#newsletter"
+                           class="hover:text-blue-400 transition duration-300">
+                            Newsletter
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Mobile Menu -->
+                <button
+                    class="md:hidden text-2xl"
+                    aria-label="Open navigation menu">
+
+                    <i class="fas fa-bars"></i>
+
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+    <section
+        class="relative bg-cover bg-center"
+        style="background-image: linear-gradient(rgba(15,23,42,0.85), rgba(15,23,42,0.85)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');"
+    >
+
+        <div class="max-w-7xl mx-auto px-6 py-24 md:py-32">
+
+            <div class="max-w-3xl text-white">
+
+                <span class="inline-block bg-blue-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                    SOFTWARE ENGINEERING & TECHNOLOGY
+                </span>
+
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
+                    Exploring Technology,
+                    One Article at a Time.
+                </h1>
+
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed mb-8">
+                    Discover practical insights about software engineering,
+                    cloud computing, databases, Linux and the technologies
+                    shaping the future of IT.
+                </p>
+
+                <a
+                    href="#posts"
+                    class="inline-block bg-blue-600 hover:bg-blue-700 px-7 py-3 rounded-lg font-semibold transition duration-300"
+                >
+                    Explore Articles
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+    <section id="categories" class="py-20 px-6 bg-white">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="text-center mb-12">
+
+                <p class="text-blue-600 font-semibold mb-2">
+                    EXPLORE
+                </p>
+
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                    Browse Categories
+                </h2>
+
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">
+                    Explore articles organized around the technologies
+                    and subjects that matter most.
+                </p>
+
+            </div>
+
+
+            <!-- Category badges -->
+            <div class="flex flex-wrap justify-center gap-4">
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-blue-100 text-blue-700 rounded-full font-semibold hover:bg-blue-600 hover:text-white transition duration-300"
+                >
+                    <i class="fas fa-code mr-2"></i>
+                    Software Engineering
+                </a>
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-purple-100 text-purple-700 rounded-full font-semibold hover:bg-purple-600 hover:text-white transition duration-300"
+                >
+                    <i class="fas fa-cloud mr-2"></i>
+                    Cloud Computing
+                </a>
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-green-100 text-green-700 rounded-full font-semibold hover:bg-green-600 hover:text-white transition duration-300"
+                >
+                    <i class="fab fa-linux mr-2"></i>
+                    Linux
+                </a>
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-orange-100 text-orange-700 rounded-full font-semibold hover:bg-orange-600 hover:text-white transition duration-300"
+                >
+                    <i class="fas fa-database mr-2"></i>
+                    Databases
+                </a>
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-pink-100 text-pink-700 rounded-full font-semibold hover:bg-pink-600 hover:text-white transition duration-300"
+                >
+                    <i class="fas fa-briefcase mr-2"></i>
+                    Career
+                </a>
+
+                <a
+                    href="#"
+                    class="px-5 py-3 bg-yellow-100 text-yellow-700 rounded-full font-semibold hover:bg-yellow-600 hover:text-white transition duration-300"
+                >
+                    <i class="fas fa-lightbulb mr-2"></i>
+                    Technology
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= RECENT POSTS ================= -->
+    <section id="posts" class="py-20 px-6 bg-gray-100">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
+
+                <div>
+
+                    <p class="text-blue-600 font-semibold mb-2">
+                        LATEST ARTICLES
+                    </p>
+
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">
+                        Recent Posts
+                    </h2>
+
+                </div>
+
+                <a
+                    href="#"
+                    class="mt-5 md:mt-0 text-blue-600 font-semibold hover:text-blue-800"
+                >
+                    View all articles →
+                </a>
+
+            </div>
+
+
+            <!-- Posts grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <!-- Post 1 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+                        alt="Developer writing code"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            SOFTWARE ENGINEERING
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            Understanding the Software Development Lifecycle
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            A practical overview of the different stages
+                            involved in building and maintaining modern
+                            software applications.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                September 12, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Post 2 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80"
+                        alt="Cloud computing technology"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            CLOUD COMPUTING
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            Getting Started with Cloud Computing
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            Learn the fundamental concepts behind cloud
+                            infrastructure, services, scalability and
+                            modern application deployment.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                September 8, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Post 3 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&w=900&q=80"
+                        alt="Linux terminal"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            LINUX
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            Essential Linux Commands for Developers
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            A practical guide to important Linux commands
+                            every developer should understand when working
+                            with servers and development environments.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                September 3, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Post 4 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=900&q=80"
+                        alt="Database technology"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            DATABASES
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            Understanding Relational Databases
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            Explore tables, relationships, SQL queries and
+                            the fundamental concepts behind relational
+                            database systems.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                August 28, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Post 5 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                        alt="Professional career discussion"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-pink-100 text-pink-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            CAREER
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            Building a Career in Software Engineering
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            Practical advice for students and junior
+                            developers looking to build strong technical
+                            and professional foundations.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                August 20, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Post 6 -->
+                <article
+                    class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300"
+                >
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+                        alt="Modern technology workspace"
+                        class="w-full h-52 object-cover"
+                    >
+
+                    <div class="p-6">
+
+                        <span class="inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-semibold mb-4">
+                            TECHNOLOGY
+                        </span>
+
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">
+                            How Technology Is Transforming Businesses
+                        </h3>
+
+                        <p class="text-gray-600 leading-relaxed mb-5">
+                            An exploration of how digital technologies are
+                            changing the way organizations operate and
+                            deliver value.
+                        </p>
+
+                        <div class="flex items-center justify-between text-sm text-gray-500">
+
+                            <span>
+                                <i class="far fa-calendar mr-2"></i>
+                                August 15, 2026
+                            </span>
+
+                            <a
+                                href="#"
+                                class="text-blue-600 font-semibold hover:text-blue-800"
+                            >
+                                Read →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+    <section id="newsletter" class="py-20 px-6 bg-blue-600">
+
+        <div class="max-w-4xl mx-auto text-center text-white">
+
+            <div class="mb-8">
+
+                <div
+                    class="w-16 h-16 mx-auto bg-white text-blue-600 rounded-full flex items-center justify-center text-2xl mb-6"
+                >
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    Stay in the Loop
+                </h2>
+
+                <p class="text-blue-100 text-lg max-w-2xl mx-auto">
+                    Subscribe to receive new articles, software engineering
+                    insights and technology updates directly in your inbox.
+                </p>
+
+            </div>
+
+
+            <!-- Newsletter form -->
+            <form
+                class="flex flex-col sm:flex-row gap-4 max-w-2xl mx-auto"
+            >
+
+                <label for="newsletter-email" class="sr-only">
+                    Email address
+                </label>
+
+                <input
+                    type="email"
+                    id="newsletter-email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required
+                    class="flex-1 px-5 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300"
+                >
+
+                <button
+                    type="submit"
+                    class="bg-gray-950 hover:bg-gray-800 text-white px-7 py-3 rounded-lg font-semibold transition duration-300"
+                >
+                    Subscribe
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="bg-gray-950 text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-12">
+
+            <div
+                class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10"
+            >
+
+                <!-- About -->
+                <div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Tech<span class="text-blue-500">Sphere</span>
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        A technology blog dedicated to software engineering,
+                        cloud computing, databases, Linux and professional
+                        development.
+                    </p>
+
+                </div>
+
+
+                <!-- Quick Links -->
+                <div>
+
+                    <h3 class="text-lg font-semibold mb-4">
+                        Quick Links
+                    </h3>
+
+                    <ul class="space-y-3">
+
+                        <li>
+                            <a
+                                href="#"
+                                class="text-gray-400 hover:text-white transition"
+                            >
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="#categories"
+                                class="text-gray-400 hover:text-white transition"
+                            >
+                                Categories
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="#posts"
+                                class="text-gray-400 hover:text-white transition"
+                            >
+                                Articles
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href="#newsletter"
+                                class="text-gray-400 hover:text-white transition"
+                            >
+                                Newsletter
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- Social Media -->
+                <div>
+
+                    <h3 class="text-lg font-semibold mb-4">
+                        Follow Me
+                    </h3>
+
+                    <div class="flex gap-4">
+
+                        <a
+                            href="#"
+                            aria-label="GitHub"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-lg hover:bg-blue-600 transition duration-300"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a
+                            href="#"
+                            aria-label="LinkedIn"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-lg hover:bg-blue-600 transition duration-300"
+                        >
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a
+                            href="#"
+                            aria-label="Twitter"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-lg hover:bg-blue-600 transition duration-300"
+                        >
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a
+                            href="#"
+                            aria-label="Instagram"
+                            class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-lg hover:bg-blue-600 transition duration-300"
+                        >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-6">
+
+                <div
+                    class="flex flex-col md:flex-row items-center justify-between gap-4"
+                >
+
+                    <p class="text-gray-500 text-sm text-center">
+                        © 2026 TechSphere. All rights reserved.
+                    </p>
+
+                    <div class="flex gap-6 text-sm">
+
+                        <a
+                            href="#"
+                            class="text-gray-500 hover:text-white transition"
+                        >
+                            Privacy Policy
+                        </a>
+
+                        <a
+                            href="#"
+                            class="text-gray-500 hover:text-white transition"
+                        >
+                            Terms of Use
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
