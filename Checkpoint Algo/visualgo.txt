@@ -1,0 +1,15 @@
+Suffix Tree
+Suffix Array
+Maximum Flow
+Minimum Cut
+Bipartite Matching
+Minimum Vertex Cover
+Steiner Tree
+Traveling Salesperson Problem (TSP)
+SAT
+3-SAT
+Clique
+Subset Sum
+Vertex Cover
+Convex Hull
+Polygon Geometry
